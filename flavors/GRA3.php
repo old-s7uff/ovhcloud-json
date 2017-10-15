@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: application/json');
 $json_array = array(
-    "FLAVOR" => array(
-      "S1-1" => array(
+    "FLGRA3" => array(
+      "S1" => array(
             "[outboundBandwidth]" => "102",
             "[disk]" => "10",
             "[region]" => "GRA3",
@@ -15,7 +15,7 @@ $json_array = array(
             "[available]" => "1",
             "[ram]" => "2000"
         ),
-      "S1-2" => array(
+      "S2" => array(
             "[outboundBandwidth]" => "102",
             "[disk]" => "20",
             "[region]" => "GRA3",
@@ -28,7 +28,7 @@ $json_array = array(
             "[available]" => "1",
             "[ram]" => "4000"
         ),
-      "S1-3" => array(
+      "S3" => array(
             "[outboundBandwidth]" => "102",
             "[disk]" => "40",
             "[region]" => "GRA3",

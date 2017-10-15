@@ -18,7 +18,7 @@ $conn = new Api(    $applicationKey,
                     $consumer_key);                                   
 $get = $conn->get('/cloud/project/'.$cloud.'/flavor', array( 
     'region' => 'GRA3',
-);
+));
 $myJSON = json_encode($get);
 echo $myJSON;
 ?>

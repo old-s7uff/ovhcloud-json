@@ -1,3 +1,4 @@
 #!/bin/bash
 
 php -q /hostdata/api.dopehosting.net/public_html/ovh-cloud/flavor/build.php > /hostdata/api.dopehosting.net/public_html/ovh-cloud/json/FLAVORS.json
+php -q /hostdata/api.dopehosting.net/public_html/ovh-cloud/image/build.php > /hostdata/api.dopehosting.net/public_html/ovh-cloud/json/IMAGES.json

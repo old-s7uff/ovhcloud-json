@@ -1,0 +1,3 @@
+#!/bin/bash
+
+php -q /hostdata/api.dopehosting.net/public_html/ovh-cloud/flavor/build.php > /hostdata/api.dopehosting.net/public_html/ovh-cloud/json/FLAVORS.json

@@ -1,21 +1,44 @@
 <?php
+// ------------------------------------------------------
 header("Content-Type: application/json; charset=UTF-8");
+// ------------------------------------------------------
+
+// ===========================================================
 require __DIR__ . '/ovh-api/vendor/autoload.php';
 use \Ovh\Api;
-$applicationKey = "x";
-$applicationSecret = "x";
-$consumer_key = "x";
+$applicationKey = "xxxxxxxxxxxxxxxx";
+$applicationSecret = "xxxxxxxxxxxxxxxx";
+$consumer_key = "xxxxxxxxxxxxxxxx";
 $endpoint = 'ovh-ca';
-$cloud = 'x';
-// Get servers list
+$cloud = 'b36f60875e81461487af7e854af0f398';
+// ===========================================================
 $conn = new Api(    $applicationKey,
                     $applicationSecret,
                     $endpoint,
-                    $consumer_key);                                   
+                    $consumer_key);
+// ===========================================================
+
+// ===========================================================
+// GET DATA FROM OUR JSON.
+$get = file_get_contents('https://api.dopehosting.net/ovh-cloud/json/FLAVORS.json');
+$json = json_decode($get, true);
+$flavor = $json;
+
+$get1 = file_get_contents('https://api.dopehosting.net/ovh-cloud/json/IMAGES.json');
+$json1 = json_decode($get1, true);
+$image = $json1;
+
+// $get2 = file_get_contents('https://api.dopehosting.net/ovh-cloud/json/SSH.json');
+// $json2 = json_decode($get2, true);
+// $ssh = $json2;
+// ===========================================================
+
+// ===========================================================
+// SEND REQ.
 $get = $conn->post('/cloud/project/'.$cloud.'/instance', array(
-    'flavorId' => 'eeb4ccc9-faa0-4afb-955e-6a0224f93055', // Instance flavor id (type: string)
+    'flavorId' => "{$flavor['FLAVOR']['GRA3-S1']['id']}", // Instance flavor id (type: string)
     'groupId' => NULL, // Start instance in group (type: string)
-    'imageId' => 'd1517a07-bc48-4523-b80c-b22f4e506c9e', // Instance image id (type: string)
+    'imageId' => "{$image['IMAGE']['GRA3-U4']['id']}", // Instance image id (type: string)
     'monthlyBilling' => false, // Active monthly billing (type: boolean)
     'name' => 'api-test', // Instance name (type: string)
     'networks' => NULL, // Create network interfaces (type: cloud.instance.NetworkParams[])
@@ -24,6 +47,11 @@ $get = $conn->post('/cloud/project/'.$cloud.'/instance', array(
     'userData' => NULL, // Configuration information or scripts to use upon launch (type: text)
     'volumeId' => NULL, // Specify a volume id to boot from it (type: string)
 ));
+// ===========================================================
+
+// ===========================================================
+// PUSH OUTPUT IN JSON.
 $myJSON = json_encode($get);
 echo $myJSON;
+// ===========================================================
 ?>

@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 $json_array = array(
     "IMAGE" => array(
-      "GRA3-D9" => array(
+      "GRA3-DEBIAN9" => array(
             "visibility" => "public",
             "flavorType" => "null",
             "status" => "active",
@@ -16,7 +16,7 @@ $json_array = array(
             "id" => "370cd41a-efbc-43a6-a8e8-038ddc70079b",
             "type" => "linux"
         ),
-      "GRA3-C7" => array(
+      "GRA3-CENTOS7" => array(
             "visibility" => "public",
             "flavorType" => "null",
             "status" => "active",
@@ -30,7 +30,7 @@ $json_array = array(
             "id" => "0945c37b-482e-4945-b0c5-13630341b015",
             "type" => "linux"
         ),
-      "GRA3-U4" => array(
+      "GRA3-UBUNTU14" => array(
             "visibility" => "public",
             "flavorType" => "null",
             "status" => "active",
@@ -44,7 +44,7 @@ $json_array = array(
             "id" => "d1517a07-bc48-4523-b80c-b22f4e506c9e",
             "type" => "linux"
         ),
-      "SBG3-D9" => array(
+      "SBG3-DEBIAN9" => array(
             "visibility" => "public",
             "flavorType" => "null",
             "status" => "active",
@@ -58,7 +58,7 @@ $json_array = array(
             "id" => "ec3f2599-675d-4278-8ff0-a4fb7bac36b0",
             "type" => "linux"
         ),
-      "SBG3-C7" => array(
+      "SBG3-CENTOS7" => array(
             "visibility" => "public",
             "flavorType" => "null",
             "status" => "active",
@@ -72,7 +72,7 @@ $json_array = array(
             "id" => "89cb8cfb-e5a0-4e1c-ab3c-1e4181a0ce0f",
             "type" => "linux"
         ),
-      "SBG3-U4" => array(
+      "SBG3-UBUNTU14" => array(
             "visibility" => "public",
             "flavorType" => "null",
             "status" => "active",

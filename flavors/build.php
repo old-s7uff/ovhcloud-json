@@ -9,11 +9,11 @@ $json_array = array(
             "name" => "s1-2",
             "inboundBandwidth" => "102",
             "id" => "eeb4ccc9-faa0-4afb-955e-6a0224f93055",
-            "vcpus" => "1",
+            "vcpus" => "1 x 2.4GHz",
             "type" => "ovh.vps-ssd",
             "osType" => "linux",
             "available" => "1",
-            "ram" => "2000"
+            "ram" => "2 GB"
         ),
       "GRA3-S2" => array(
             "outboundBandwidth" => "102",

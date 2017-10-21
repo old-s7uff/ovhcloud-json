@@ -4,7 +4,7 @@ $json_array = array(
     "FLAVOR" => array(
       "GRA3-S1" => array(
             "outboundBandwidth" => "102 MB/s",
-            "disk" => "10 GB",
+            "disk" => "10 GB SSD",
             "region" => "GRA3",
             "name" => "s1-2",
             "inboundBandwidth" => "102 MB/s",
@@ -16,7 +16,7 @@ $json_array = array(
         ),
       "GRA3-S2" => array(
             "outboundBandwidth" => "102 MB/s",
-            "disk" => "20 GB",
+            "disk" => "20 GB SSD",
             "region" => "GRA3",
             "name" => "s1-4",
             "inboundBandwidth" => "102 MB/s",
@@ -28,7 +28,7 @@ $json_array = array(
         ),
       "GRA3-S3" => array(
             "outboundBandwidth" => "102 MB/s",
-            "disk" => "40 GB",
+            "disk" => "40 GB SSD",
             "region" => "GRA3",
             "name" => "s1-8",
             "inboundBandwidth" => "102 MB/s",
@@ -40,7 +40,7 @@ $json_array = array(
         ),
       "SBG3-S1" => array(
             "outboundBandwidth" => "102 MB/s",
-            "disk" => "10 GB",
+            "disk" => "10 GB SSD",
             "region" => "SBG3",
             "name" => "s1-2",
             "inboundBandwidth" => "102 MB/s",
@@ -52,7 +52,7 @@ $json_array = array(
         ),
       "SBG3-S2" => array(
             "outboundBandwidth" => "102 MB/s",
-            "disk" => "20 GB",
+            "disk" => "20 GB SSD",
             "region" => "SBG3",
             "name" => "s1-4",
             "inboundBandwidth" => "102 MB/s",
@@ -64,7 +64,7 @@ $json_array = array(
         ),
       "SBG3-S3" => array(
             "outboundBandwidth" => "102 MB/s",
-            "disk" => "40 GB",
+            "disk" => "40 GB SSD",
             "region" => "SBG3",
             "name" => "s1-8",
             "inboundBandwidth" => "102 MB/s",

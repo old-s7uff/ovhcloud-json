@@ -20,8 +20,8 @@ $json_array = array(
                   "user" => "arch",
                   "id" => "50f3add4-da5f-4608-ba87-c3e9a770db2b",
                   "type" => "linux",
-                  "appLink" => "",
-                  "getStarted" => "",
+                  "appLink" => "https://www.archlinux.org/",
+                  "getStarted" => "https://wiki.archlinux.org/index.php/General_recommendations",
                   "extraCost" => "0.00€"
               ),
             // =====================================================
@@ -39,7 +39,7 @@ $json_array = array(
                   "user" => "ubuntu",
                   "id" => "5260939e-7f85-48e0-af21-343aa16b14da",
                   "type" => "linux",
-                  "appLink" => "",
+                  "appLink" => "https://www.ubuntu.com/",
                   "getStarted" => "",
                   "extraCost" => "0.00€"
               ),

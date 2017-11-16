@@ -10,7 +10,7 @@ $applicationKey = "xxxxxxxxxxxxxxxx";
 $applicationSecret = "xxxxxxxxxxxxxxxx";
 $consumer_key = "xxxxxxxxxxxxxxxx";
 $endpoint = 'ovh-ca';
-$cloud = 'b36f60875e81461487af7e854af0f398';
+$cloud = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 // ===========================================================
 $conn = new Api(    $applicationKey,
                     $applicationSecret,
@@ -38,7 +38,7 @@ $image = $json1;
 $get = $conn->post('/cloud/project/'.$cloud.'/instance', array(
     'flavorId' => "{$flavor['FLAVOR']['GRA3-S1']['id']}", // Instance flavor id (type: string)
     'groupId' => NULL, // Start instance in group (type: string)
-    'imageId' => "{$image['IMAGE']['GRA3-U4']['id']}", // Instance image id (type: string)
+    'imageId' => "{$image['IMAGE']['GRA3']['UBUNTU-14.04']['id']}", // Instance image id (type: string)
     'monthlyBilling' => false, // Active monthly billing (type: boolean)
     'name' => 'api-test', // Instance name (type: string)
     'networks' => NULL, // Create network interfaces (type: cloud.instance.NetworkParams[])

@@ -8,7 +8,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "ARCHLINUX" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -27,7 +27,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "UBUNTU-14.04" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -46,7 +46,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "UBUNTU-16.04" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -65,7 +65,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "UBUNTU-17.04" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -84,7 +84,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "UBUNTU-17.10" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -103,7 +103,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-7" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -122,7 +122,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -141,7 +141,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8-OpenVPN" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -160,7 +160,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8-WordPress" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -179,7 +179,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8-Virtualmin" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -198,7 +198,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8-Plesk" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -217,7 +217,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8-Vestacp" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -236,7 +236,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8-Docker" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -255,7 +255,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-8-GitLab" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -274,7 +274,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-9" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -293,7 +293,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-9-DataScience" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -312,7 +312,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "DEBIAN-9-RStudio" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -328,7 +328,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "FEDORA-25" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -347,7 +347,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "FEDORA-26" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -366,7 +366,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "CENTOS-6" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -385,7 +385,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "CENTOS-7" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -404,7 +404,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "COREOS-STABLE" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -423,7 +423,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "FREEBSD-11-ZFS" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -442,7 +442,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "WINDOWS-SERVER-2012-R2" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",
@@ -461,7 +461,7 @@ $json_array = array(
             // =====================================================
             // =====================================================
             "WINDOWS2016-STANDARD-DESKTOP" => array(
-                  "domain" => ".vps.dopehosting.net",
+                  "domain" => ".dopehosting.net",
                   "visibility" => "public",
                   "status" => "active",
                   "region" => "BHS3",

@@ -21,7 +21,7 @@ $json_array = array(
                   "uplink"      => "100 MB/s",
                   "type"        => "linux",
                   "windows"     => "no",
-                  "Cost"        => "5.00 €",
+                  "Cost"        => "6.10 €",
                   "extraCost"   => "0.00 €",
                   "billingCode" => "s1-2.monthly.UK1"
             ),
@@ -36,7 +36,7 @@ $json_array = array(
                   "uplink"      => "100 MB/s",
                   "type"        => "linux",
                   "windows"     => "no",
-                  "Cost"        => "9.00 €",
+                  "Cost"        => "10.00 €",
                   "extraCost"   => "0.00 €",
                   "billingCode" => "s1-4.monthly.UK1"
             ),
@@ -51,7 +51,7 @@ $json_array = array(
                   "uplink"      => "100 MB/s",
                   "type"        => "linux",
                   "windows"     => "no",
-                  "Cost"        => "15.00 €",
+                  "Cost"        => "16.00 €",
                   "extraCost"   => "0.00 €",
                   "billingCode" => "s1-8.monthly.UK1"
             ),

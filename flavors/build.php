@@ -10,7 +10,50 @@ $json_array = array(
         "UK1" => array( 
             // =====================================================
             // =====================================================
-            "b2-7" => array(
+            "s1-2" => array(
+                  "name"        => "s1-2",
+                  "region"      => "UK1",
+                  "id"          => "e9d6fb38-9bf0-44ac-adbf-30fee3c96096",
+                  "domain"      => ".uk1.dopehosting.net",
+                  "disk"        => "10 GB",
+                  "ram"         => "2 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "5.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-2.monthly.UK1"
+            ),
+            "s1-4" => array(
+                  "name"        => "s1-4",
+                  "region"      => "UK1",
+                  "id"          => "98f6f41f-384b-4a4b-b4eb-49a917a6c117",
+                  "domain"      => ".uk1.dopehosting.net",
+                  "disk"        => "20 GB",
+                  "ram"         => "4 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "9.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-4.monthly.UK1"
+            ),
+            "s1-8" => array(
+                  "name"        => "s1-8",
+                  "region"      => "UK1",
+                  "id"          => "defa64c3-bd46-43b4-858a-d93bbae0a229",
+                  "domain"      => ".uk1.dopehosting.net",
+                  "disk"        => "40 GB",
+                  "ram"         => "8 GB",
+                  "cpu"         => "2 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "15.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-8.monthly.UK1"
             ),
             // =====================================================
             // =====================================================
@@ -25,7 +68,50 @@ $json_array = array(
         "WAW1" => array( 
             // =====================================================
             // =====================================================
-            "b2-7" => array(
+            "s1-2" => array(
+                  "name"        => "s1-2",
+                  "region"      => "WAW1",
+                  "id"          => "3cf2bf37-4e49-411a-93c1-8908ff3e05f0",
+                  "domain"      => ".waw1.dopehosting.net",
+                  "disk"        => "10 GB",
+                  "ram"         => "2 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "5.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-2.monthly"
+            ),
+            "s1-4" => array(
+                  "name"        => "s1-4",
+                  "region"      => "WAW1",
+                  "id"          => "a47516ca-ebf5-4f9c-8d3d-d6ad3c6301a9",
+                  "domain"      => ".waw1.dopehosting.net",
+                  "disk"        => "20 GB",
+                  "ram"         => "4 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "9.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-4.monthly"
+            ),
+            "s1-8" => array(
+                  "name"        => "s1-8",
+                  "region"      => "WAW1",
+                  "id"          => "2f5e4d34-3784-4ea6-be33-8501b056ac08",
+                  "domain"      => ".waw1.dopehosting.net",
+                  "disk"        => "40 GB",
+                  "ram"         => "8 GB",
+                  "cpu"         => "2 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "15.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-8.monthly"
             ),
             // =====================================================
             // =====================================================
@@ -40,7 +126,50 @@ $json_array = array(
         "DE1" => array( 
             // =====================================================
             // =====================================================
-            "b2-7" => array(
+            "s1-2" => array(
+                  "name"        => "s1-2",
+                  "region"      => "DE1",
+                  "id"          => "d31419c1-8e1e-48c2-8a4c-28190650c817",
+                  "domain"      => ".de1.dopehosting.net",
+                  "disk"        => "10 GB",
+                  "ram"         => "2 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "6.10 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-2.monthly.DE1"
+            ),
+            "s1-4" => array(
+                  "name"        => "s1-4",
+                  "region"      => "DE1",
+                  "id"          => "f92a622d-ba3b-4873-90fd-c0940c8533a1",
+                  "domain"      => ".de1.dopehosting.net",
+                  "disk"        => "20 GB",
+                  "ram"         => "4 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "10.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-4.monthly.DE1"
+            ),
+            "s1-8" => array(
+                  "name"        => "s1-8",
+                  "region"      => "DE1",
+                  "id"          => "3cc7adaa-209e-48b2-9a69-4796e8257933",
+                  "domain"      => ".de1.dopehosting.net",
+                  "disk"        => "40 GB",
+                  "ram"         => "8 GB",
+                  "cpu"         => "2 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "16.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-8.monthly.DE1"
             ),
             // =====================================================
             // =====================================================
@@ -55,7 +184,50 @@ $json_array = array(
         "GRA3" => array( 
             // =====================================================
             // =====================================================
-            "b2-7" => array(
+            "s1-2" => array(
+                  "name"        => "s1-2",
+                  "region"      => "GRA3",
+                  "id"          => "eeb4ccc9-faa0-4afb-955e-6a0224f93055",
+                  "domain"      => ".gra3.dopehosting.net",
+                  "disk"        => "10 GB",
+                  "ram"         => "2 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "5.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-2.monthly"
+            ),
+            "s1-4" => array(
+                  "name"        => "s1-4",
+                  "region"      => "GRA3",
+                  "id"          => "a5bd5b78-4aa5-4d1c-bd18-e9c1898d1894",
+                  "domain"      => ".gra3.dopehosting.net",
+                  "disk"        => "20 GB",
+                  "ram"         => "4 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "9.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-4.monthly"
+            ),
+            "s1-8" => array(
+                  "name"        => "s1-8",
+                  "region"      => "GRA3",
+                  "id"          => "021668a3-623a-40ef-b15d-ba2a69e74a2f",
+                  "domain"      => ".gra3.dopehosting.net",
+                  "disk"        => "40 GB",
+                  "ram"         => "8 GB",
+                  "cpu"         => "2 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "15.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-8.monthly"
             ),
             // =====================================================
             // =====================================================
@@ -70,7 +242,50 @@ $json_array = array(
         "SBG3" => array( 
             // =====================================================
             // =====================================================
-            "b2-7" => array(
+            "s1-2" => array(
+                  "name"        => "s1-2",
+                  "region"      => "SBG3",
+                  "id"          => "35e3c9b8-655f-4622-b34b-8df60cf099d5",
+                  "domain"      => ".sbg3.dopehosting.net",
+                  "disk"        => "10 GB",
+                  "ram"         => "2 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "5.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-2.monthly"
+            ),
+            "s1-4" => array(
+                  "name"        => "s1-4",
+                  "region"      => "SBG3",
+                  "id"          => "ac07fd3f-147a-4453-a4ae-851f02c38495",
+                  "domain"      => ".sbg3.dopehosting.net",
+                  "disk"        => "20 GB",
+                  "ram"         => "4 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "9.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-4.monthly"
+            ),
+            "s1-8" => array(
+                  "name"        => "s1-8",
+                  "region"      => "SBG3",
+                  "id"          => "97af8010-e4bf-4201-8860-33bacd514f99",
+                  "domain"      => ".sbg3.dopehosting.net",
+                  "disk"        => "40 GB",
+                  "ram"         => "8 GB",
+                  "cpu"         => "2 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "15.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-8.monthly"
             ),
             // =====================================================
             // =====================================================
@@ -85,7 +300,50 @@ $json_array = array(
         "BHS3" => array( 
             // =====================================================
             // =====================================================
-            "b2-7" => array(
+            "s1-2" => array(
+                  "name"        => "s1-2",
+                  "region"      => "BHS3",
+                  "id"          => "a8a85ec5-12b4-4b05-8dc1-bd6bd02457d9",
+                  "domain"      => ".bhs3.dopehosting.net",
+                  "disk"        => "10 GB",
+                  "ram"         => "2 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "5.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-2.monthly"
+            ),
+            "s1-4" => array(
+                  "name"        => "s1-4",
+                  "region"      => "BHS3",
+                  "id"          => "92416632-fece-42f0-a6a4-70b2d416fa1d",
+                  "domain"      => ".bhs3.dopehosting.net",
+                  "disk"        => "20 GB",
+                  "ram"         => "4 GB",
+                  "cpu"         => "1 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "9.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-4.monthly"
+            ),
+            "s1-8" => array(
+                  "name"        => "s1-8",
+                  "region"      => "BHS3",
+                  "id"          => "db9b3c2b-921a-468a-83ac-072853210bd5",
+                  "domain"      => ".bhs3.dopehosting.net",
+                  "disk"        => "40 GB",
+                  "ram"         => "8 GB",
+                  "cpu"         => "2 vCore 2.4 GHz",
+                  "uplink"      => "100 MB/s",
+                  "type"        => "linux",
+                  "windows"     => "no",
+                  "Cost"        => "15.00 €",
+                  "extraCost"   => "0.00 €",
+                  "billingCode" => "s1-8.monthly"
             ),
             // =====================================================
             // =====================================================
